@@ -1,0 +1,178 @@
+<!-- Prince Sanjivy -->
+<!-- credits stackoverflow, w3schools -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Le Paradise</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<!-- jumbotron -->
+	<div class="jumbotron">
+		<h1 style="font-size: 100px; font-family: Photograph" data-aos="fade-right" data-aos-duration="1500">Le Paradise</h1>
+		<br><br>
+		<p style="font-size: 42px;" data-aos="fade-down" data-aos-duration="2700">Hotel & Resort</p>
+		<p style="font-size: 21px;" data-aos="fade-down" data-aos-duration="3000">Enjoy your holidays with us.</p>
+	</div>
+	
+	<!-- about -->
+	<div class="container-fluid bg-1">
+		<div class="row">
+			<div class="col-sm-8">
+				<h2 data-aos="fade-down" data-aos-duration="1500">About Le Paradise</h2>
+				<p data-aos="fade-down" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="images/4.jpg" class="img-thumbnail" data-aos="fade-left" data-aos-duration="2500">
+			</div>
+		</div>
+	</div>
+
+	<!-- rooms -->
+	<div id="rooms" class="container-fluid bg-2">
+		<div class="row">
+			<div>
+				<h2 style="text-align: center;" data-aos="fade-down" data-aos-duration="1500">Rooms</h2>
+			</div>
+			<div class="col-md-4" data-aos="fade-down" data-aos-duration="2000">
+				<div class="thumbnail">
+					<img src="images/1.jpg" style="width: 100%">
+					<div class="caption">
+						<p>Room 1</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" data-aos="fade-down" data-aos-duration="2000">
+				<div class="thumbnail">
+					<img src="images/2.jpg" style="width: 100%">
+					<div class="caption">
+						<p>Room 2</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" data-aos="fade-down" data-aos-duration="2000">
+				<div class="thumbnail">
+					<img src="images/3.jpg" style="width: 100%">
+					<div class="caption">
+						<p>Room 3</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- services -->
+	<div id="services" class="container-fluid bg-1">
+		<div class="row">
+			<div>
+				<h2 style="text-align: center;" data-aos="fade-down" data-aos-duration="1500">Services</h2>
+			</div>
+			<div class="col-sm-4" data-aos="fade-down" data-aos-duration="2000">
+				<i class="fa fa-wifi" style="font-size: 32px;"></i>
+				<h5>FREE WIFI</h5>
+				<p>Incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Utad minima.</p>
+			</div>
+			<div class="col-sm-4" data-aos="fade-down" data-aos-duration="2000">
+				<i class="fa fa-shower" style="font-size: 32px;"></i>
+				<h5>SWIMMING POOL</h5>
+				<p>Incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Utad minima.</p>
+			</div>
+			<div class="col-sm-4" data-aos="fade-down" data-aos-duration="2000">
+				<i class="fa fa-bicycle" style="font-size: 32px;"></i>
+				<h5>GYM</h5>
+				<p>Incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Utad minima.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- booking&contact -->
+	<div id="booking" class="container-fluid bg-2 bc">
+		<div class="row">
+			<div class="col-xs-6" data-aos="fade-right" data-aos-duration="1500">
+				<h2>Book a room!</h2>
+				<form>
+					<div class="form-group">
+						<label for="name">Your Name</label>
+						<input type="text" class="form-control" style="width: 50%" id="name"  placeholder="Prince" pattern=[A-Z\sa-z]{3,20} required>
+					</div>
+					<div class="form-group">
+						<label for="email">Your E-mail</label>
+						<input type="email" class="form-control" style="width: 50%"  placeholder="sanjivy.android@pec.edu" required>
+					</div>
+					<div class="form-group">
+						<label for="phone">Your Phone</label>
+						<input type="tel"class="form-control" style="width: 50%" name="visitor_phone" placeholder="91123456789" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+					</div>
+					<br><br>
+					<div class="form-group">
+						<label for="adult">Adults</label>
+						<input type="number" class="form-control" style="width: 50%" placeholder="2" min="1" required>
+					</div>
+					<div class="form-group">
+						<label for="child">Children</label>
+						<input type="number" class="form-control" style="width: 50%"placeholder="2" min="0" required>
+					</div>
+					<div>
+						<label for="checkin-date">Check-in Date</label>
+						<input type="date" class="form-control" style="width: 50%" required>
+					</div>
+					<div>
+						<label for="checkout-date">Check-out Date</label>
+						<input type="date" class="form-control" style="width: 50%" required>
+					</div>
+					<br><br>
+					<div class="form-group">
+						<label for="message">Anything Else?</label>
+						<br>
+						<textarea class="form-control" style="width: 50%" placeholder="Tell us anything else that might be important." required style="width: 75%;"></textarea>
+					</div>
+					<button type="submit" class="btn btn-default" style="background-color: transparent; color: white; font-size: 18px; text-align: center;">Book</button>
+				</form>
+			</div>
+			<div class="col-xs-6" data-aos="fade-left" data-aos-duration="1500">
+				<h2>Contact Us</h2>
+				<div>
+					<i class="fa fa-map-marker" style="font-size: 24px;"></i>
+					<p>Devs street, Pondicherry, India</p>
+				</div>
+				<div>
+					<i class="fa fa-phone" style="font-size: 24px;"></i>
+					<p>+91 123456789</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope" style="font-size: 24px;"></i>
+					<p>bookings@leparadise.dev</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<i class="fa fa-instagram" style="font-size: 22px;"></i>
+						<i class="fa fa-facebook" style="font-size: 22px;"></i>
+						<i class="fa fa-twitter" style="font-size: 22px;"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer class="container-fluid text-center bg-1" data-aos="fade-up" data-aos-duration="1500">
+		<p>&copy Le Paradise</p>
+		<p style="font-size: 14px;">Credits: w3schools, stackoverflow</p>
+		<p style="font-size: 12px;">Design: Prince</p>
+	</footer>
+
+	<script type="text/javascript">
+		AOS.init();
+	</script>
+
+</body>
+</html>

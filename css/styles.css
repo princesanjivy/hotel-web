@@ -1,0 +1,55 @@
+@font-face{
+	font-family: JosefinSans;
+	src: url(../fonts/JosefinSans.ttf);
+}
+
+@font-face{
+	font-family: Photograph;
+	src: url(../fonts/Photograph.ttf);
+}
+
+*{
+	font-family: JosefinSans;
+}
+
+.img-thumbnail{
+	border: none;
+}
+
+body{
+	background-color: #e3dfc8;
+}
+
+p{
+	font-size: 20px;
+}
+
+.bg-2{
+	/*background-color: #f5f1da;*/
+	background-image: url(../images/5.jpg);
+	min-height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+.bg-1{
+	background-color: #e3dfc8;
+}
+
+.container-fluid{
+	padding: 60px 50px;
+}
+
+.jumbotron{
+	background-image: url(../images/5.jpg);
+	background-size: cover;
+	padding: 100px 25px;
+	height: 100vh;
+	color: white;
+}
+
+.bc{
+	color: white;
+}
